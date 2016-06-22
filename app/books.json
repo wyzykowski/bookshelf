@@ -1,0 +1,49 @@
+[{"id":9,"genre":{"id":2,"name":"Music","color":"#000000"},
+  "title":"Night Hunters","author": {"id":7,"name":"Peter Bullet"},
+  "cover":"http://lorempixel.com/600/800/nature/",
+  "chapters":
+  [{"title":"The jungle","keywords":["habitats","biodiversity","plants","topography"]},{"title":"Predators and prays","keywords":["insects","reptiles","mammals","birds","aquatic animals"]},{"title":"Sensory","keywords":
+  ["ecolocation","infrared vision","electrical sense","magnetic sense"]},{"title":"The trap","keywords": ["venom","webs","claws","teeth","group hunt","beaks","speed"]}]},
+  {"id":10,"genre":{"id":1,"name":"Drama","color":"#6d9c5a"},
+    "title":"Godfather","author": {"id":7,"name":"Mario Puzo"},
+    "cover":"http://lorempixel.com/600/800/sports/",
+    "chapters":
+    [{"title":"The jungle","keywords":["habitats","biodiversity","plants","topography"]},{"title":"Predators and prays","keywords":["insects","reptiles","mammals","birds","aquatic animals"]},{"title":"Sensory","keywords":
+    ["ecolocation","infrared vision","electrical sense","magnetic sense"]},{"title":"The trap","keywords": ["venom","webs","claws","teeth","group hunt","beaks","speed"]}]},
+  {"id":10,"genre":{"id":3,"name":"Nature","color":"#6d9c5a"},
+    "title":"Godfather","author": {"id":7,"name":"Mario Puzo"},
+    "cover":"http://lorempixel.com/600/800/sports/",
+    "chapters":
+    [{"title":"The jungle","keywords":["habitats","biodiversity","plants","topography"]},{"title":"Predators and prays","keywords":["insects","reptiles","mammals","birds","aquatic animals"]},{"title":"Sensory","keywords":
+    ["ecolocation","infrared vision","electrical sense","magnetic sense"]},{"title":"The trap","keywords": ["venom","webs","claws","teeth","group hunt","beaks","speed"]}]},
+  {"id":10,"genre":{"id":3,"name":"Nature","color":"#6d9c5a"},
+    "title":"Godfather","author": {"id":7,"name":"Mario Puzo"},
+    "cover":"http://lorempixel.com/600/800/sports/",
+    "chapters":
+    [{"title":"The jungle","keywords":["habitats","biodiversity","plants","topography"]},{"title":"Predators and prays","keywords":["insects","reptiles","mammals","birds","aquatic animals"]},{"title":"Sensory","keywords":
+    ["ecolocation","infrared vision","electrical sense","magnetic sense"]},{"title":"The trap","keywords": ["venom","webs","claws","teeth","group hunt","beaks","speed"]}]},
+  {"id":10,"genre":{"id":3,"name":"Nature","color":"#6d9c5a"},
+    "title":"Godfather","author": {"id":7,"name":"Mario Puzo"},
+    "cover":"http://lorempixel.com/600/800/sports/",
+    "chapters":
+    [{"title":"The jungle","keywords":["habitats","biodiversity","plants","topography"]},{"title":"Predators and prays","keywords":["insects","reptiles","mammals","birds","aquatic animals"]},{"title":"Sensory","keywords":
+    ["ecolocation","infrared vision","electrical sense","magnetic sense"]},{"title":"The trap","keywords": ["venom","webs","claws","teeth","group hunt","beaks","speed"]}]},
+  {"id":10,"genre":{"id":3,"name":"Action","color":"#6d9c5a"},
+    "title":"James Bond","author": {"id":7,"name":"Paulo Coelho"},
+    "cover":"http://lorempixel.com/600/800/sports/",
+    "chapters":
+    [{"title":"The jungle","keywords":["habitats","biodiversity","plants","topography"]},{"title":"Predators and prays","keywords":["insects","reptiles","mammals","birds","aquatic animals"]},{"title":"Sensory","keywords":
+    ["ecolocation","infrared vision","electrical sense","magnetic sense"]},{"title":"The trap","keywords": ["venom","webs","claws","teeth","group hunt","beaks","speed"]}]},
+  {"id":10,"genre":{"id":3,"name":"Nature","color":"#6d9c5a"},
+    "title":"Godfather","author": {"id":7,"name":"Mario Puzo"},
+    "cover":"http://lorempixel.com/600/800/sports/",
+    "chapters":
+    [{"title":"The jungle","keywords":["habitats","biodiversity","plants","topography"]},{"title":"Predators and prays","keywords":["insects","reptiles","mammals","birds","aquatic animals"]},{"title":"Sensory","keywords":
+    ["ecolocation","infrared vision","electrical sense","magnetic sense"]},{"title":"The trap","keywords": ["venom","webs","claws","teeth","group hunt","beaks","speed"]}]},
+  {"id":10,"genre":{"id":3,"name":"Nature","color":"#6d9c5a"},
+    "title":"Godfather","author": {"id":7,"name":"Mario Puzo"},
+    "cover":"http://lorempixel.com/600/800/sports/",
+    "chapters":
+    [{"title":"The jungle","keywords":["habitats","biodiversity","plants","topography"]},{"title":"Predators and prays","keywords":["insects","reptiles","mammals","birds","aquatic animals"]},{"title":"Sensory","keywords":
+    ["ecolocation","infrared vision","electrical sense","magnetic sense"]},{"title":"The trap","keywords": ["venom","webs","claws","teeth","group hunt","beaks","speed"]}]}
+]

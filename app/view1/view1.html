@@ -1,0 +1,52 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 col-md-offset-10">
+            Order by:
+            <button ng-click="order = 'title'" type="button" class="btn btn-default">Title</button>
+            <button ng-click="order = 'author'" type="button" class="btn btn-default">Author</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <span ng-repeat="genre in selectedGenres">
+                <button type="button" class="btn btn-default"">{{genre}}</button>
+            </span>
+        </div>
+        <div ng-class="{'col-md-offset-1':$index % 5 == 0}" class="col-xs-4 col-md-2 book-box" ng-repeat="book in books | orderBy : order | filter:filterByGenres">
+            <a href="" uib-popover-template="'myPopoverTemplate.html'" popover-title="{{book.title}}" popover-trigger="mouseenter" popover-placement="right"><img src="{{book.cover}}" class="img-responsive book"></a>
+            <h2 class="title">{{book.title}}</h2>
+            <h4>{{book.author.name}}</h4>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-default"">Action</button>
+        </div>
+        <div ng-class="{'col-md-offset-1':$index % 5 == 0}" class="col-xs-4 col-md-2 book-box" ng-repeat="book in books | orderBy : order | filter:'Action':books.genre.name">
+            <a href="" uib-popover-template="'myPopoverTemplate.html'" popover-title="{{book.title}}" popover-trigger="mouseenter" popover-placement="right"><img src="{{book.cover}}" class="img-responsive book"></a>
+            <h2 class="title">{{book.title}}</h2>
+            <h4>{{book.author.name}}</h4>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <span ng-repeat="genre in allGenres">
+                <button type="button" class="btn btn-default"">{{genre}}</button>
+            </span>
+        </div>
+        <div ng-class="{'col-md-offset-1':$index % 5 == 0}" class="col-xs-4 col-md-2 book-box" ng-repeat="book in books | orderBy : order">
+            <a href="" uib-popover-template="'myPopoverTemplate.html'" popover-title="{{book.title}}" popover-trigger="mouseenter" popover-placement="right"><img src="{{book.cover}}" class="img-responsive book"></a>
+            <h2 class="title">{{book.title}}</h2>
+            <h4>{{book.author.name}}</h4>
+        </div>
+    </div>
+</div>
+
+<script type="text/ng-template" id="myPopoverTemplate.html">
+    <div ng-repeat="chapter in book.chapters" class="popover-body">
+        <h3>{{$index + 1}}. {{chapter.title}}</h3>
+        <p><small ng-repeat="keyword in chapter.keywords">{{keyword}}, </small></p>
+    </div>
+</script>
